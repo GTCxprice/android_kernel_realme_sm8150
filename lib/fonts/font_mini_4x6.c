@@ -43,8 +43,8 @@ __END__;
 
 #define FONTDATAMAX 1536
 
-static const unsigned char fontdata_mini_4x6[FONTDATAMAX] = {
-
+static const struct font_data fontdata_mini_4x6 = {
+	{ 0, 0, FONTDATAMAX, 0 }, {
 	/*{*/
 	  	/*   Char 0: ' '  */
 	0xee,	/*=  [*** ]       */

@@ -8,8 +8,8 @@
 
 #define FONTDATAMAX 9216
 
-static const unsigned char fontdata_10x18[FONTDATAMAX] = {
-
+static const struct font_data fontdata_10x18 = {
+	{ 0, 0, FONTDATAMAX, 0 }, {
 	/* 0 0x00 '^@' */
 	0x00, 0x00, /* 0000000000 */
 	0x00, 0x00, /* 0000000000 */
